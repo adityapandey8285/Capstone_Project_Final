@@ -24,7 +24,8 @@
     "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
     "watch-vendor-management": "cds watch --open vendor.invoice.vendormanagement/index.html?sap-ui-xx-viewCache=false --livereload false",
     "watch-invoiceapproval": "cds watch --open vendor.invoice.invoiceapproval/index.html?sap-ui-xx-viewCache=false --livereload false",
-    "watch-invoiceviewer": "cds watch --open vendor.invoice.invoiceviewer/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-invoiceviewer": "cds watch --open vendor.invoice.invoiceviewer/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-vendor-input": "cds watch --open vendorinput/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "cds": {
@@ -69,6 +70,7 @@
       "html5-repo": true,
       "destinations": true,
       "workzone": true,
+      "workzone-standard": true,
       "API_BUSINESS_PARTNER": {
         "kind": "odata-v2",
         "model": "srv/external/API_BUSINESS_PARTNER",
@@ -89,6 +91,8 @@
     "app/invoiceapproval",
     "app/vendor-management",
     "app/invoiceviewer",
-    "app/invoiceapproval"
+    "app/invoiceapproval",
+    "app/vendor-input",
+    "app/vendor-input"
   ]
 }

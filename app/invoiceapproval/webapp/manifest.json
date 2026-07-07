@@ -27,8 +27,8 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "vendor-management-display": {
-          "semanticObject": "vendor-management",
+        "invoiceapproval-display": {
+          "semanticObject": "invoiceapproval",
           "action": "display",
           "signature": {
             "parameters": {},
@@ -60,6 +60,7 @@
       "minUI5Version": "1.149.1",
       "libs": {
         "sap.m": {},
+        "sap.f": {},
         "sap.ui.core": {},
         "sap.fe.templates": {}
       }
@@ -90,7 +91,8 @@
       }
     },
     "resources": {
-      "css": []
+      "css": [],
+      "js": []
     },
     "routing": {
       "config": {},

@@ -25,5 +25,8 @@ service AdminService @(path:'/admin') {
     entity ApprovalHistory as projection on db.ApprovalHistory;
 
     //@requires: 'VendorManager'
+    @Common.SideEffects#SyncVendors : {
+        TargetEntities : ['/Vendors']
+    }
     action SyncVendors() returns String;
 }

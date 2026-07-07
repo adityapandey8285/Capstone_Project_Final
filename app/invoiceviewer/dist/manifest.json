@@ -32,8 +32,8 @@
 		},
 		"crossNavigation": {
 			"inbounds": {
-				"vendor-management-display": {
-					"semanticObject": "vendor-management",
+				"invoiceviewer-display": {
+					"semanticObject": "invoiceviewer",
 					"action": "display",
 					"signature": {
 						"parameters": {},
