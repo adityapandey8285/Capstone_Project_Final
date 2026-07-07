@@ -1,1 +1,1 @@
-# Capstone_Project_Final
+Vendor Invoice Management System is a SAP CAP-based enterprise application for managing the complete vendor invoice lifecycle. It includes vendor onboarding, invoice submission, approval workflow, invoice tracking, role-based access control (Admin, Approver, Vendor Manager, Viewer), SAP Fiori Elements UI, SAP HANA Cloud database, and SAP Build Work Zone integration. The project is developed using SAP CAP, OData V4, CDS, and Cloud Foundry deployment following enterprise best practices.
